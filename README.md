@@ -9,4 +9,4 @@ Regarding technical stuff:
 - The backend manager component implements a queue system and decouples that logic from widgets
 
 Multiplayer showcase video:
-<video src="AdditionalAssets/ToastDemoMultiplayer.mkv" width="600" autoplay loop muted></video>
+<video src="AdditionalAssets/ToastDemoMultiplayer.mp4" width="600" autoplay loop muted></video>
