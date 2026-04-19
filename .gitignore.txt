@@ -1,0 +1,48 @@
+#################################
+# Unreal Engine Generated Files #
+#################################
+[Bb]uild/
+[Bb]inaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+#################################
+# Visual Studio Generated Files #
+#################################
+vs/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.opensdf
+*.sdf
+vsconfig
+
+#################################
+# Precompiled Assets #
+#################################
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+#################################
+# Plugins #
+#################################
+Plugins/**/Binaries/*
+Plugins/**/Intermediate/*
+
+#################################
+# Map Built Data #
+#################################
+*_BuiltData.uasset
+
+#################################
+# Editor Cache #
+#################################
+DerivedDataCache/*
+
+#################################
+# OS Specific #
+#################################
+DS_Store
+Thumbs.db
