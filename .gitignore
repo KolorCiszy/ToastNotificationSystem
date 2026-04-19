@@ -18,7 +18,8 @@ vs/
 *.opensdf
 *.sdf
 vsconfig
-
+.vs/*
+.idea/
 #################################
 # Precompiled Assets #
 #################################
