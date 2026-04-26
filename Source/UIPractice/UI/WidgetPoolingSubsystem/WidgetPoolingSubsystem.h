@@ -11,8 +11,11 @@ USTRUCT()
 struct FPooledWidgetsData
 {
 	GENERATED_BODY()
+
+	UPROPERTY()
 	TArray<TObjectPtr<UUserWidget>> AllWidgets;
-	
+
+	UPROPERTY()
 	TSet<TObjectPtr<UUserWidget>> UsedWidgets;
 };
 
