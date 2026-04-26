@@ -9,10 +9,10 @@ struct FToastNotificationIconData : public FTableRowBase
 {
 	GENERATED_BODY()
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TSoftObjectPtr<UTexture2D> Icon;
+	TSoftObjectPtr<UTexture2D> Icon = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FColor Tint;
+	FColor Tint = FColor::White;
 };
 
 
