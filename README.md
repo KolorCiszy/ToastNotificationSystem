@@ -4,7 +4,7 @@ The system implements following notifications:
 <img width="576" height="956" alt="image" src="AdditionalAssets/toastDemo.gif" />
 
 Regarding technical stuff:
-- Notification widgets are pooled
+- Notification widgets are pooled (using a widget pool subsystem - inherits from LocalPlayerSubsystem, may be reused for other pooled widget classes)
 - It is possible to send a notification for every player on the server as well as only for the local player
 - The backend manager component implements a queue system and decouples that logic from widgets
 
